@@ -16,7 +16,9 @@ It is a basic Spiking Neuron model based on the following equations : <br />
 
 The observed results are plotted and saved as images in the Leaky Integrate and Fire Model folder.
 The current used for each testcase is mentioned below.
+
 ```
+Input Values :
 I.   I = 2uA for 10ms <= t <= 75ms; I = 0Amp otherwise
 II.  I = 1.5uA for 0ms <= t <= 100ms
 III. I = 5sin(ωt)uA where ω = 45deg/msec
